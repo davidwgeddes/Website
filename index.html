@@ -25,6 +25,15 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <style>
+    body {
+      background-color: #e8f4f8 !important;
+      color: #2c3e50 !important;
+    }
+    
+    a:link, a:visited, a:hover, a:active {
+      color: #2c3e50 !important;
+    }
+    
     #profileContainer {
       min-height: auto;
       display: block;
@@ -60,12 +69,13 @@
     #profile h1 {
       margin: 0;
       font-size: 32px;
+      color: #2c3e50;
     }
     #profile-intro {
       text-align: left;
       font-size: 16px;
       line-height: 1.8;
-      color: #707070;
+      color: #2c3e50;
     }
     #profile-intro p {
       margin: 0;
@@ -88,7 +98,7 @@
     .projects-section h2 {
       font-size: 28px;
       margin-bottom: 30px;
-      color: #707070;
+      color: #2c3e50;
     }
     .projects-grid {
       display: grid;
@@ -97,34 +107,34 @@
       padding: 0;
     }
     .project-card {
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: rgba(255, 255, 255, 0.95);
       border-radius: 8px;
       padding: 20px;
       text-align: left;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
       transition: transform 0.2s, box-shadow 0.2s;
       display: flex;
       flex-direction: column;
     }
     .project-card:hover {
       transform: translateY(-4px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     }
     .project-card h3 {
       margin: 0 0 10px 0;
-      color: #707070;
+      color: #2c3e50;
       font-size: 20px;
     }
     .project-card p {
       margin: 8px 0;
-      color: #707070;
+      color: #2c3e50;
       font-size: 14px;
       line-height: 1.6;
       flex-grow: 1;
     }
     .project-tech {
       font-size: 12px;
-      color: #999;
+      color: #5a7a8f;
       margin: 12px 0 8px 0;
       font-style: italic;
     }
@@ -133,26 +143,28 @@
       gap: 12px;
       margin-top: 12px;
       padding-top: 12px;
-      border-top: 1px solid #eee;
+      border-top: 1px solid #d0e4eb;
     }
     .project-links a {
       font-size: 12px;
       padding: 6px 12px;
-      background-color: #f0f0f0;
-      color: #707070;
+      background-color: #d0e4eb;
+      color: #2c3e50;
       text-decoration: none;
       border-radius: 4px;
       transition: background-color 0.2s;
     }
     .project-links a:hover {
-      background-color: #8ee4af;
+      background-color: #2d5a7b;
+      color: #e8f4f8;
     }
     
     footer {
       text-align: center;
       padding: 40px 20px;
       margin-top: 40px;
-      border-top: 1px solid #ddd;
+      border-top: 1px solid #d0e4eb;
+      color: #2c3e50;
     }
     footer nav ul {
       display: flex;
@@ -163,6 +175,16 @@
     }
     footer nav li {
       margin: 0 10px;
+    }
+    footer nav a {
+      color: #2d5a7b;
+      transition: color 0.2s;
+    }
+    footer nav a:hover {
+      color: #e8f4f8;
+      background-color: #2d5a7b;
+      padding: 8px;
+      border-radius: 4px;
     }
   </style>
 
