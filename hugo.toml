@@ -3,6 +3,7 @@ languageCode = 'en-US'
 languageName = 'English'
 title = 'David Geddes'
 theme = 'PaperMod'
+publishDir = 'docs'
 
 # Output formats
 [outputs]

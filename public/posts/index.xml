@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on David Geddes</title><link>https://davidwgeddes.github.io/Website/posts/</link><description>Recent content in Posts on David Geddes</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://davidwgeddes.github.io/Website/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Website Launch - Everything in Development</title><link>https://davidwgeddes.github.io/Website/posts/website-launch/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://davidwgeddes.github.io/Website/posts/website-launch/</guid><description>Launching the new website built with Hugo and the PaperMod theme</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on David Geddes</title>
+    <link>http://localhost:60351/Website/posts/</link>
+    <description>Recent content in Posts on David Geddes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60351/Website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Launch - Everything in Development</title>
+      <link>http://localhost:60351/Website/posts/website-launch/</link>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60351/Website/posts/website-launch/</guid>
+      <description>Launching the new website built with Hugo and the PaperMod theme</description>
+    </item>
+  </channel>
+</rss>
