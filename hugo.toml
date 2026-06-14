@@ -1,0 +1,15 @@
+baseURL = 'https://davidwgeddes.github.io/Website/'
+languageCode = 'en-US'
+languageName = 'English'
+title = 'David Geddes'
+theme = 'PaperMod'
+
+# Output formats
+[outputs]
+home = ["HTML", "JSON"]
+
+# Markup
+[markup.highlight]
+lineNos = true
+noClasses = false
+

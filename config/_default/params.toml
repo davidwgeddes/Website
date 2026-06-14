@@ -1,0 +1,45 @@
+# Congo Theme Configuration
+
+# Social links in header
+[author]
+name = "David Geddes"
+image = "img/avatar_2026.jpg"
+headline = "App Developer"
+bio = "Building small, simple, and useful applications"
+
+# Links in the footer
+[[links]]
+title = "GitHub"
+icon = "github"
+url = "https://github.com/davidwgeddes"
+
+[[links]]
+title = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/davidwgeddes"
+
+[[links]]
+title = "Facebook"
+icon = "facebook"
+url = "https://facebook.com/davidwgeddes"
+
+[[links]]
+title = "Email"
+icon = "envelope"
+url = "mailto:david.w.geddes@gmail.com"
+
+# Theme customization
+colorScheme = "auto" # light, dark, auto
+defaultAppearance = "light"
+enableSearch = true
+enableCodeCopy = true
+
+# Site metadata
+description = "David Geddes - App Developer"
+keywords = "app developer, mobile apps, software engineer"
+
+# Comments (if using)
+enableComments = false
+
+# Analytics
+enableGoogleAnalytics = false
